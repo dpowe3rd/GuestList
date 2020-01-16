@@ -28,3 +28,9 @@ while len(guests) > 2:
 print('\n')
 for x in range(len(guests)):
     print('Hello ' + guests[x] + ', I am glad to still be able to invite you to my birthday dinner. I hope to see you there!')
+    
+    while len(guests) > 0:
+    del guests[0]
+
+print('\n')
+print(guests)
